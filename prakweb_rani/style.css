@@ -1,0 +1,74 @@
+body{
+    font-family: 'Times New Roman', Times, serif;
+    background: linear-gradient(135deg,#ff7e4a,#ffe5bd);
+}
+
+.container{
+    width: 350px;
+    margin: 80px auto;
+    background: rgb(245, 231, 170);
+    padding: 25px;
+    border-radius: 8px;
+    text-align: center;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+}
+
+.logo img{
+    width: 70px;
+    height: 70px;
+    border-radius: 100%;
+    background: #fff2c8;
+}
+
+h2{
+    margin-top: 30px;
+}
+
+p{
+    color: rgb(75, 69, 69);
+    font-size: 14px;
+}
+
+form{
+    text-align: left;
+    margin-top: 20px;
+}
+
+label{
+    font-size: 14px;
+}
+
+input{
+    width: 100%;
+    padding: 8px;
+    margin: 5px 0 15px 0;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+.opsi{
+    display: flex;
+    justify-content: space-between;
+    font-size: 12px;
+    margin-bottom: 15px;
+}
+
+.opsi label{
+    display: flex;
+    align-items: center;
+    gap: 2px;
+}
+
+button{
+    width: 100%;
+    padding: 10px;
+    background: rgb(255, 153, 57);
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+button:hover{
+    background: #ffac30;
+}
