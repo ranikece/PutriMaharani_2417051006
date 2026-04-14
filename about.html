@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>About — Putri Maharani</title>
+  <link rel="stylesheet" href="style.css" />
+  <link href="https://fonts.googleapis.com/css2?family=Space+Mono:ital,wght@0,400;0,700;1,400&family=Syne:wght@400;700;800&display=swap" rel="stylesheet"/>
+</head>
+<body>
+
+  <nav class="navbar" id="navbar">
+    <div class="nav-logo">Rani<span class="dot"></span></div>
+    <button class="hamburger" id="hamburger" aria-label="Toggle menu">
+      <span></span><span></span><span></span>
+    </button>
+    <ul class="nav-links" id="nav-links">
+      <li><a href="index.html">Home</a></li>
+      <li><a href="about.html" class="active">About</a></li>
+      <li><a href="projects.html">Projects</a></li>
+      <li><a href="skills.html">Skills</a></li>
+      <li><a href="contact.html">Contact</a></li>
+    </ul>
+  </nav>
+
+  <section class="page-hero">
+    <div class="page-hero-inner">
+      <p class="page-tag">&#x2014; Tentang Saya</p>
+      <h1 class="page-title">Who<br/><span class="outline-text">Am I?</span></h1>
+    </div>
+  </section>
+
+  <section class="about-section">
+    <div class="about-grid">
+
+      <div class="about-photo-col">
+        <div class="photo-frame">
+         <img src="ranikece.jpeg" alt="Putri Maharani" style="width:100%; aspect-ratio:3/4; object-fit:cover; display:block;"/>
+          <div class="photo-deco"></div>
+        </div>
+        <div class="about-quick-info">
+          <div class="quick-item">
+            <span class="quick-label">Status</span>
+            <span class="quick-val">Mahasiswi Aktif</span>
+          </div>
+          <div class="quick-item">
+            <span class="quick-label">Universitas</span>
+            <span class="quick-val">Universitas Lampung</span>
+          </div>
+          <div class="quick-item">
+            <span class="quick-label">Jurusan</span>
+            <span class="quick-val">Ilmu Komputer</span>
+          </div>
+          <div class="quick-item">
+            <span class="quick-label">Fokus</span>
+            <span class="quick-val">UI/UX Design</span>
+          </div>
+        </div>
+      </div>
+
+      <div class="about-text-col">
+        <h2 class="about-heading">Halo, aku <span class="accent">Putri Maharani</span>!</h2>
+        <p class="about-body">
+          Saya adalah mahasiswi S1 Ilmu Komputer di Universitas Lampung yang memiliki minat kuat di bidang UI/UX Design. Ketertarikan terhadap desain antarmuka tumbuh dari kesadaran bahwa teknologi yang baik harus dapat diakses dan dipahami oleh semua orang.
+        </p>
+        <p class="about-body">
+          Berfokus pada perancangan pengalaman pengguna yang intuitif, mulai dari riset pengguna, pembuatan wireframe, hingga prototipe interaktif. Setiap keputusan desain selalu didasarkan pada kebutuhan pengguna dan prinsip-prinsip desain yang terukur.
+        <p class="about-body">
+         Di luar aktivitas akademik, aktif mengeksplorasi tren desain terkini. Di waktu senggang, saya menikmati musik dari Reality Club dan Rex Orange County, serta memiliki ketertarikan pada kuliner — khususnya dimsum — dan buah melon sebagai camilan favorit.
+        </p>
+
+        <div class="about-tabs">
+          <div class="tab-header">
+            <button class="tab-btn active" data-tab="education">Pendidikan</button>
+            <button class="tab-btn" data-tab="experience">Pengalaman</button>
+            <button class="tab-btn" data-tab="interest">Minat</button>
+          </div>
+          <div class="tab-content" id="tab-education">
+            <div class="timeline-item">
+              <span class="tl-year">2024 — sekarang</span>
+              <h4 class="tl-title">S1 Ilmu Komputer</h4>
+              <p class="tl-place">Universitas Lampung</p>
+            </div>
+            <div class="timeline-item">
+              <span class="tl-year">2021 — 2024</span>
+              <h4 class="tl-title">SMA / Sederajat</h4>
+              <p class="tl-place">SMA NEGERI 10 Bandar Lampung</p>
+            </div>
+          </div>
+          <div class="tab-content hidden" id="tab-experience">
+            <div class="timeline-item">
+              <span class="tl-year">2026</span>
+              <h4 class="tl-title">Anggota Humas dan Informasi</h4>
+              <p class="tl-place">PIK-R RAYA Universitas Lampung</p>
+            </div>
+            <div class="timeline-item">
+              <span class="tl-year">2026</span>
+              <h4 class="tl-title">Anggota Biro Kesekretariatan</h4>
+              <p class="tl-place">Himpunan Mahasiswa Ilmu Komputer Universitas Lampung</p>
+            </div>
+          </div>
+          <div class="tab-content hidden" id="tab-interest">
+            <div class="interest-tags">
+              <span class="tag">Front-end Development</span>
+              <span class="tag">UI/UX Design</span>
+              <span class="tag">Open Source</span>
+              <span class="tag">Indie Rock Music</span>
+              <span class="tag">Jazz Music</span>
+              <span class="tag">Desain Grafis</span>
+            </div>
+          </div>
+        </div>
+      </div>
+
+    </div>
+  </section>
+
+  <footer class="footer">
+    <p>© 2025 Putri Maharani &nbsp;</p>
+  </footer>
+
+  <script src="main.js"></script>
+</body>
+</html>
