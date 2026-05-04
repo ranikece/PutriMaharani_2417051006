@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Contact — Putri Maharani</title>
+  <link rel="stylesheet" href="style.css" />
+  <link href="https://fonts.googleapis.com/css2?family=Space+Mono:ital,wght@0,400;0,700;1,400&family=Syne:wght@400;700;800&display=swap" rel="stylesheet"/>
+</head>
+<body>
+
+  <nav class="navbar" id="navbar">
+    <div class="nav-logo">Rani<span class="dot"></span></div>
+    <button class="hamburger" id="hamburger" aria-label="Toggle menu">
+      <span></span><span></span><span></span>
+    </button>
+    <ul class="nav-links" id="nav-links">
+      <li><a href="index.html">Home</a></li>
+      <li><a href="about.html">About</a></li>
+      <li><a href="projects.html">Projects</a></li>
+      <li><a href="skills.html">Skills</a></li>
+      <li><a href="contact.html" class="active">Contact</a></li>
+    </ul>
+  </nav>
+
+  <section class="page-hero">
+    <div class="page-hero-inner">
+      <p class="page-tag">&#x2014; Mari Terhubung</p>
+      <h1 class="page-title">Get In<br/><span class="outline-text">Touch</span></h1>
+    </div>
+  </section>
+
+  <section class="contact-section">
+    <div class="contact-grid">
+
+      <div class="contact-info">
+        <h2 class="contact-heading">Yuk, ngobrol!</h2>
+        <p class="contact-desc">
+          Punya ide project, mau kolaborasi, atau sekadar mau kenalan? Silakan hubungi aku lewat form di samping atau langsung ke kontak di bawah ini.
+        </p>
+        <div class="contact-links">
+          <a href="mailto:putrimaharanii0103@gmail.com" class="contact-link-item">
+            <span class="cli-icon">✉</span>
+            <span>putrimaharanii0103@gmail.com</span>
+          </a>
+          <a href="https://github.com/ranikece" target="_blank" class="contact-link-item">
+            <span class="cli-icon">⌥</span>
+            <span>github.com/ranikece</span>
+          </a>
+          <a href="https://www.linkedin.com/in/putri-maharani-136b4433a" target="_blank" class="contact-link-item">
+            <span class="cli-icon">in</span>
+            <span>linkedin.com/in/putrimaharani</span>
+          </a>
+          <a href="https://instagram.com/staryjn" target="_blank" class="contact-link-item">
+          <span class="cli-icon">ig</span>
+          <span>instagram.com/staryjn</span>
+          </a>
+        </div>
+        <div class="availability">
+          <span class="avail-dot"></span>
+          <span>Available for project & kolaborasi</span>
+        </div>
+      </div>
+
+      <div class="contact-form-wrap">
+        <div id="form-success" class="form-success hidden">
+          <span class="success-icon">✓</span>
+          <h3>Pesan Terkirim!</h3>
+          <p>Terima kasih telah menghubungi saya. Pesan kamu sudah diterima dan akan segera dibalas!</p>
+          <button class="btn-outline" id="send-again">Kirim Pesan Lain</button>
+        </div>
+
+        <div id="contact-form-block">
+          <div class="form-group">
+            <label for="name">Nama Lengkap</label>
+            <input type="text" id="name" placeholder="Masukkan nama kamu" autocomplete="off"/>
+            <span class="field-error" id="err-name"></span>
+          </div>
+          <div class="form-group">
+            <label for="email">Email</label>
+            <input type="email" id="email" placeholder="Masukkan email kamu" autocomplete="off"/>
+            <span class="field-error" id="err-email"></span>
+          </div>
+          <div class="form-group">
+            <label for="subject">Subjek</label>
+            <input type="text" id="subject" placeholder="Topik pesan kamu" autocomplete="off"/>
+            <span class="field-error" id="err-subject"></span>
+          </div>
+          <div class="form-group">
+            <label for="message">Pesan</label>
+            <textarea id="message" rows="5" placeholder="Tulis pesanmu di sini..."></textarea>
+            <span class="field-error" id="err-message"></span>
+          </div>
+          <div class="char-count"><span id="char-num">0</span>/300 karakter</div>
+          <button class="btn-primary full-width" id="submit-btn">Kirim Pesan</button>
+        </div>
+      </div>
+
+    </div>
+  </section>
+
+  <footer class="footer">
+    <p>© 2025 Putri Maharani &nbsp;</p>
+  </footer>
+
+  <script src="main.js"></script>
+</body>
+</html>
